@@ -1,0 +1,6 @@
+[submodule "solar-plugins"]
+	path = solar-plugins
+	url = https://github.com/lowtechmag/solar-plugins.git
+[submodule "solar"]
+	path = solar
+	url = https://github.com/lowtechmag/solar.git
