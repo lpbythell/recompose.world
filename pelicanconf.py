@@ -1,10 +1,6 @@
 # pelicanconf.py
 AUTHOR = 'Louis Alderson-Bythell'
-<<<<<<< HEAD
-SITENAME = 'Recompose'
-=======
 SITENAME = 'Recompose World'
->>>>>>> 1390e6e (Initial commit with Solar theme, plugins, and content)
 SITEURL = 'https://recompose.world'
 
 PATH = 'content'
@@ -36,19 +32,11 @@ DEFAULT_PAGINATION = 10
 # RELATIVE_URLS = True
 
 # Theme
-<<<<<<< HEAD
-THEME = 'path_to_solar_theme'  # Ensure this points to the solar theme directory
-
-# Plugins
-PLUGIN_PATHS = ['solar-plugins']
-PLUGINS = ['plugin1', 'plugin2']  # Replace 'plugin1', 'plugin2' with actual plugin names
-=======
 THEME = 'solar'  # Ensure this points to the solar theme directory
 
 # Plugins
 PLUGIN_PATHS = ['solar-plugins']
-PLUGINS = ['neighbors', 'related_posts', 'addressable_paragraphs', 'dither', 'page_metadata', 'representative_image']
->>>>>>> 1390e6e (Initial commit with Solar theme, plugins, and content)
+PLUGINS = ['assets', 'representative_image', 'neighbors', 'related_posts']
 
 # GitHub Pages output path
 OUTPUT_PATH = 'docs/'
